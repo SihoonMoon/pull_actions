@@ -1,0 +1,23 @@
+name: Run Python code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # - name: setup python
+    #   uses: actions/setup-python@v4
+    #   with:
+    #     python-version: 3.13.1
+      
+    - name: Run Python script
+      run: |
+        python output.py
