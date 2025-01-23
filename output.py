@@ -1,5 +1,6 @@
 def action_file():
-    song = "apple banana cherry do juseyo"
+    song = "apples bananas cherrys do juseyo"
+
     print(song)
 
 action_file()
