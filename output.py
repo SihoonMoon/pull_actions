@@ -1,5 +1,5 @@
 def action_file():
-    song = "apples bananas cherrys do juseyo"
+    song = "#apples !bananas @cherrys do juseyo"
 
     print(song)
 
